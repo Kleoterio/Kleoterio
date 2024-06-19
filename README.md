@@ -2,7 +2,7 @@
 
 👀 Estou interessado em conseguir vagas de emprego.
 
-🌱 Atualmente estou aprendendo java e Html.
+🌱 Atualmente estou aprendendo java e Html, faço faculdade de ADS.
 
 💞️ Procuro colaborar na resolução de problemas.
 
