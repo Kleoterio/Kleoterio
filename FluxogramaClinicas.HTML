@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluxograma Interativo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+ 
+    .descricao1 {
+      display: none;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 3px solid #64e8ff;
+
+    }
+ .descricao2 {
+      display: none;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 3px solid #4CAF50;
+    }
+    .descricao3 {
+      display: none;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 3px solid #c875cf;
+    }
+    .descricao4 {
+      display: none;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 3px solid #c0c0c0;
+    }
+    .descricao5 {
+      display: none;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 3px solid #c7b14d;
+    }
+    .descricao6 {
+      display: none;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 3px solid #d3d152;
+    }
+    .opcao1 {
+      background-color: #64e8ff;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      text-align: left;
+      width: 200px;
+    }
+    .opcao2 {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 200px;
+    }
+
+    .opcao3 {
+      background-color: #c875cf;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 200px;
+    }
+
+    .opcao4 {
+      background-color: #c0c0c0;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      text-align: left;
+      width: 200px;
+    }
+
+    .opcao5 {
+      background-color: #c7b14d;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 200px;
+    }
+    .opcao6 {
+      background-color: #d3d152;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Fluxograma Interativo</h1>
+
+  <button class="opcao1" onclick="toggleDescricao(1)" style="text-align: center;">Estressores Ambientais</button>
+  <div id="descricao1" class="descricao1">
+    <p>1. Problemas de moradia/transporte/alimentação.</p>
+    <p>2. Problemas de família.</p>
+    <p>3. Problemas de emprego.</p>
+    <p>4. Problemas legais.</p>
+    <p>5. Problemas físicos/de saúde.</p>
+    <p>6. Problemas com identidade.</p>
+    <p>7. Insegurança física.</p>
+    <p>8. Isntabilibade financeira.</p>
+    <p>9. Relacionamentos nocivos.</p>
+    <p>10. Ter dinheiro/recurso para uso de SPA.</p>
+    <p>11. Contato com locais de risco para uso de SPA.</p>
+  </div><br>
+
+  <button class="opcao2" onclick="toggleDescricao(2)" style="text-align: center;">Estressores Comportamentais</button>
+  <div id="descricao2" class="descricao2">
+    <p>1. Sedentarismo.</p>
+    <p>2. Tabagismo.</p>
+    <p>3. Abuso de drogas/medicamentos.</p>
+    <p>4. Uso de álcool.</p>
+    <p>5. Excesso de tecnologia.</p>
+    <p>6. Excesso de pornografia.</p>
+    <p>7. Excesso de jogos e apostas.</p>
+    <p>8. Comer compulsivo.</p>
+    <p>9. Restrição alimentar excessiva.</p>
+    <p>10. Alimentação não saudável.</p>
+    <p>11. Sono desorganizado.</p>
+    <p>12. Isolamento social.</p>
+    <p>13. Comportamento Trasgressor.</p>
+    <p>14. Inverdades/omissão da verdade.</p>
+    <p>15. Exposção a riscos.</p>
+    <p>16. Heteroagressividade.</p>
+    <p>17. Autoagressividade.</p>
+    <p>18. Autoindulgência.</p>
+    <p>19. Ociosidade.</p>
+    <p>20. Procrastinação.</p>
+    
+  </div><br>
+
+  <button class="opcao3" onclick="toggleDescricao(3)" style="text-align: center;">Estressores Psicofisiológicos</button>
+  <div id="descricao3" class="descricao3">
+    <p>1. Dor.</p>
+    <p>2. Hipersensibilidade sensorial.</p>
+    <p>3. Sono/cansaço.</p>
+    <p>4. Sintomas de abstinência.</p>
+    <p>5. Fissura.</p>
+
+  </div><br>
+
+  <button class="opcao4" onclick="toggleDescricao(4)" style="text-align: center;">Estressores Emocionais</button>
+  <div id="descricao4" class="descricao4">
+    <p>1. Medo.</p>
+    <p>2. Tristeza.</p>
+    <p>3. Raiva.</p>
+    <p>4. Ansiedade.</p>
+    <p>5. Vergonha.</p>
+    <p>6. Nojo.</p>
+    <p>7. Culpa.</p>
+    <p>8. Inveja.</p>
+   
+  </div><br>
+
+  <button class="opcao5" onclick="toggleDescricao(5)" style="text-align: center;">Estressores do Pens. Futuro</button>
+  <div id="descricao5" class="descricao5">
+    <p>1. Incapacidade de mentalização do futuro.</p>
+    <p>2. Alto delay discounting.</p>
+    <p>3. Hiperativação do modo busca.</p>
+    <p>4. Hiperativação do modo alarme.</p>
+    <p>5. Hipoativação do modo busca.</p>
+    <p>6. Hipoativação do modo alarme.</p>
+    
+  </div><br>
+
+  <button class="opcao6" onclick="toggleDescricao(6)" style="text-align: center;">Estressores Cognitivos</button>
+  <div id="descricao6" class="descricao6">
+    <p>1. Crenças facilitadoras.</p>
+    <p>2. Distorções cognitivas.</p>
+    <p>3. Foco no passado ou no futuro.</p>
+    <p>4. Memórias traumáticas.</p>
+    <p>5. Desatenção/desconexão.</p>
+    <p>6. Fusão cognitiva.</p>
+    <p>7. Supressão e evasão cognitiva.</p>
+   
+  </div><br>
+
+  <script>
+    function toggleDescricao(opcao) {
+      var descricao = document.getElementById("descricao" + opcao);
+      if (descricao.style.display === "block") {
+        descricao.style.display = "none";
+      } else {
+        descricao.style.display = "block";
+      }
+    }
+  </script>
+
+</body>
+</html>
